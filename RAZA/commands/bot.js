@@ -5,7 +5,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Kashif Raza",
+  credits: "Shaan Khan",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -58,14 +58,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage(formatMessage("Main Hun Naw Jaaneman ❤️"), threadID);
    };
 
-   if ((event.body.toLowerCase() == "Kashif") || (event.body.toLowerCase() == "Raza") || (event.body.toLowerCase() == "kashif") || (event.body.toLowerCase() == "prince")) {
+   if ((event.body.toLowerCase() == "shan") || (event.body.toLowerCase() == "Shaan") || (event.body.toLowerCase() == "shaan") || (event.body.toLowerCase() == "@Shaan Khan K")) {
      return api.sendMessage(formatMessage("Busy HoGa Work Me Main t0o Hun Naw 😘"),,threadID);
 
 
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage(formatMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐊𝐀𝐒𝐇𝐈𝐅 ☠ 𝐑𝐀𝐙𝐀☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Raza🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/100001854531633\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @alijanhunyaar😇"), threadID);
+     return api.sendMessage(formatMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐇𝐀𝐀𝐍 ☠ 𝐊𝐇𝐀𝐍☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐏𝐀𝐓𝐇𝐀𝐍🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100016828397863\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @Shaankhank345😇"), threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -73,7 +73,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
-     return api.sendMessage(formatMessage("He is Kashif Raza. He Gives his name Raza everywhare"), threadID);
+     return api.sendMessage(formatMessage("He is Shaan Khan. He Gives his name Shaani everywhare"), threadID);
    };
 
    if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "mujhse shadi karoge?")) {
@@ -138,7 +138,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "jai shree ram") || (event.body.toLowerCase() == "ram") || (event.body.toLowerCase() == "ram ram")) {
-    return api.sendMessage(formatMessage("️𝗝𝗮𝗶 𝗦𝗵𝗿𝗲𝗲 𝗥𝗮𝗺 😇"), threadID);
+    return api.sendMessage(formatMessage("️𝙃𝙐𝙈 𝙈𝙐𝙎𝙇𝙄𝙈 𝙃𝘼𝙄 𝙔𝙀 𝙉𝘼𝙃𝙄 𝘽𝙊𝙇 𝙎𝘼𝙆 𝙏𝙃𝘼 𝙈𝙀 😇"), threadID);
    };
 
    if ((event.body.toLowerCase() == "bot banake do") || (event.body.toLowerCase() == "mujhe bhi chaiye")) {
@@ -235,7 +235,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
 
   const msgLower = event.body.toLowerCase();
-  if (msgLower.startsWith("bot") && msgLower.length <= 10) {
+  if (msgLower.startsWith("Bot") && msgLower.length <= 10) {
     var msg = {
       body: `${name}, ${rand}`
     }
